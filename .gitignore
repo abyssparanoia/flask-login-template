@@ -6,3 +6,4 @@ lib64
 share/
 __pycache__/
 .vscode
+.DS_Store

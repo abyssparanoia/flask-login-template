@@ -1,6 +1,6 @@
-from app import app
-app.run()
+from app import application
 
+application.run(debug=True, threaded=True)
 '''
 基本的にこのファイルは鯖側でのトリガーとする。
 elastic beanstalkがapplication.pyをデフォルトで認識するのでファイル名をこれにしています
